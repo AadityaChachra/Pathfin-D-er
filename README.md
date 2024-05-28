@@ -67,7 +67,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/AadityaChachra/Pathfin-D-er/blob/main/LICENSE) file for details.
 
 ## Contact
-For any questions or feedback, feel free to contact me at [chachraaaditya@gmail.com](chachraaaditya@gmail.com).
+For any questions or feedback, feel free to contact me at [chachraaaditya@gmail.com](mailto:chachraaaditya@gmail.com).
 
 
 
