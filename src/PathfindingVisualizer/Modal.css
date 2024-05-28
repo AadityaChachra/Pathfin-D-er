@@ -1,0 +1,46 @@
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px) saturate(50%);
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal {
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: relative;
+    /* background: rgb(53, 118, 197); */
+    background: transparent;
+    padding: 1em;
+    max-width: 60%;
+    max-height: 80%;
+    /* Set maximum height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(247, 244, 244, 0.3);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.close-button {
+    position: relative;
+    color: white;
+    background-color: transparent;
+    margin: 0;
+    padding: 1em;
+    cursor: pointer;
+    display: inline-block;
+}
