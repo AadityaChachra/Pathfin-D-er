@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Pathfin-D-er: Interactive Dijkstra's Algorithm Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pathfin-D-er is an interactive visualization tool designed to explore and understand Dijkstra's Algorithm, a popular pathfinding algorithm. This tool allows users to visualize how Dijkstra's Algorithm works on customizable grids, providing an educational and engaging way to see the algorithm in action.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Dijkstra's Algorithm**: Visualize how Dijkstra's Algorithm finds the shortest path between nodes.
+- **Obstacle Placement**: Add obstacles(walls) to the grid to challenge the pathfinding algorithm.
+- **User-Friendly Interface**: Easy to use with a clear and intuitive interface.
+- **Customizable Start and End Points**: Set your own start and end points to see how the algorithm adapts.
+- **Real-Time Visualization**: Watch the algorithm's progress in real-time.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo of Pathfin-D-er [here](https://pathfin-d-er.vercel.app).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run Pathfin-D-er locally, you need to have the following installed:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pathfin-d-er.git
+2. Navigate to the project directory:
+   ```bash
+   cd pathfin-d-er
+3. Install the dependencies:
+   ```bash
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Application
 
-### `npm run eject`
+1. Start the development server:
+   ```bash
+   npm start
+2. Open your browser and go to `http://localhost:3000` to see the application in action.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
+1. **Select Start and End Points:** Enter the desired x-y coordinates to place the start (green) and finish (red) nodes on the grid.
+2. **Add Obstacles:** Click on the grid to place obstacles (black) that the pathfinding algorithm must navigate around.
+3. **Run the Algorithm:** Click the "Visualize" button to see Dijkstra's Algorithm in action.
+4. **Observe the Process:** Watch how the algorithm explores the grid and finds the shortest path from the start to the end point. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/YourFeature
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+5. Open a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+This project is licensed under the MIT License. See the [LICENSE]() file for details.
 
-## Learn More
+## Contact
+For any questions or feedback, feel free to contact me at [chachraaaditya@gmail.com](chachraaaditya@gmail.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
