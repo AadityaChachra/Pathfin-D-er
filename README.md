@@ -14,6 +14,11 @@ Pathfin-D-er is an interactive visualization tool designed to explore and unders
 
 Check out the live demo of Pathfin-D-er [here](https://pathfin-d-er.vercel.app).
 
+
+https://github.com/AadityaChachra/Pathfin-D-er/assets/72193745/734359c2-e45e-4081-87dc-9de5eb426a92
+
+
+
 ## Getting Started
 
 ### Prerequisites
